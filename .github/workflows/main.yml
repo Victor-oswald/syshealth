@@ -32,7 +32,7 @@ jobs:
 
     - name: Build with PyInstaller
       run: |
-        pyinstaller --onefile directories.py.py  # Replace with your main Python script
+        pyinstaller --onefile directories.py  # Replace with your main Python script
 
     - name: Upload built files
       uses: actions/upload-artifact@v3
