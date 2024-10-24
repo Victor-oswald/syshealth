@@ -37,5 +37,5 @@ jobs:
     - name: Upload built files
       uses: actions/upload-artifact@v3
       with:
-        name: dist
+        name: dist-${{ matrix.os }}  # Use a different artifact name for each OS
         path: dist/
