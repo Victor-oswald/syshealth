@@ -1,0 +1,6 @@
+cryptography==43.0.1
+pyinstaller==6.11.0
+pyinstaller-hooks-contrib==2024.9
+urllib3==2.2.2
+winshell==0.6
+
